@@ -16,7 +16,7 @@ all-features = true
 workspace = true
 
 [features]
-default = ["system"]
+default = []
 std = ["read-fonts/std", "dep:memmap2", "text_primitives/std"]
 libm = ["read-fonts/libm"]
 bytemuck = ["text_primitives/bytemuck"]
